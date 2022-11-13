@@ -82,10 +82,10 @@ while True:
         break
 
 # footer
-#section = document.sections[0]
-#footer = section.footer
-#p = footer.paragraphs[0]
-#p.text = "CV generated using Burton and The Most High"
+section = document.sections[0]
+footer = section.footer
+p = footer.paragraphs[0]
+p.text = "CV generated using Visual studio Code and Burton"
 
 
 document.save('cv.docx')
